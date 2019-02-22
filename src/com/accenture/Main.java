@@ -23,7 +23,7 @@ public class Main {
 
             System.out.println("Connection successfully established! \n");
             Statement myStatement = cn.createStatement();
-            myStatement.executeQuery("Select * from aTable");
+            myStatement.executeQuery("Select * from employee");
             //Closing the connection
 
             cn.close();
